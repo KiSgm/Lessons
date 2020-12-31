@@ -17,7 +17,7 @@ progress = 1.1
 day = 1
 
 while first_result < finite_result:
-    print("результат", day, "дня =", first_result)
+    print("результат", day, "дня =", "%.2f" % first_result)
     first_result = first_result * progress
     day += 1
 else:
